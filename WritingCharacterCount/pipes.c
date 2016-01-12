@@ -49,7 +49,7 @@ int main(int argc, char** argv)
         // Write the result to a file
         if(charCount == 0)
         {
-           error("file does not exist or is empty");
+           error("input file does not exist or is empty!");
         }
         else if (charCount % 2 == 0)
         {
